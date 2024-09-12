@@ -1,0 +1,12 @@
+{
+    "strains": ["sau1"],
+    "mlst_file": ["/your/path/wgs/6_typing/mlst/results.txt"],
+    "spa_file": ["/your/path/wgs/6_typing/spatyper/output.tsv"],
+    "agrvate_file": ["/your/path/wgs/6_typing/agrvate/output.txt"],
+    "args_file": ["/your/path/wgs/7_ARGs/output.tsv"],
+    "resfinder_file": ["/your/path/wgs/7_ARGs/ResFinder/PointFinder_results.txt"],
+    "vfs_file": ["/your/path/wgs/8_VFs/output.tsv"],
+    "plasmid_file": ["/your/path/wgs/9_plasmids/mobtyper_results.txt"],
+    "prophage_file": ["/your/path/wgs/10_phages/prophage_coordinates.tsv"],
+    "output_file": "/your/path/wgs/summary.json"
+}
