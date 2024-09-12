@@ -1,5 +1,5 @@
 {
-    "strains": ["sau1"],
+    "strains": ["strain1"],
     "mlst_file": ["/your/path/wgs/6_typing/mlst/results.txt"],
     "spa_file": ["/your/path/wgs/6_typing/spatyper/output.tsv"],
     "agrvate_file": ["/your/path/wgs/6_typing/agrvate/output.txt"],
