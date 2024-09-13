@@ -152,7 +152,7 @@ for i in range(0,len(strains)):
                          "ARGs": abricate_data(args_file[i], "ARG")+resfinder_data(resfinder_file[i]),
                          "VFs": abricate_data(vfs_file[i], "VF"),
                          "plasmids": plasmid_data(plasmid_file[i]),
-                         "propages": prophage_data(prophage_file[i])
+                         "prophages": prophage_data(prophage_file[i])
                      }
 
 # Save the results in an output file
