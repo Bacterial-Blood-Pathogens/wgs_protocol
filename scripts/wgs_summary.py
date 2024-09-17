@@ -5,7 +5,6 @@
 # Load the necessary modules
 import csv, json
 
-
 def mlst_data(filename):
     if filename:
         # Open the file with the specified filename and read all lines
@@ -39,7 +38,6 @@ def spa_data(filename):
     else:
         return ("Input file doesn't exist")
 
-
 def agr_data(filename):
     if filename:
         # Open the file with the specified filename and read all lines
@@ -56,7 +54,6 @@ def agr_data(filename):
         return (agr_type)
     else:
         return ("Input file doesn't exist")
-
 
 def abricate_data(filename, value):
     if filename:
@@ -118,7 +115,6 @@ def plasmid_data(filename):
         return (plasmids)
     else:
         return ("Input file doesn't exist")
-
 
 def prophage_data(filename):
     if filename:
