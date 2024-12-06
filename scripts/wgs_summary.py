@@ -14,11 +14,7 @@ def mlst_data(filename):
         lineage = "Unknown"
         # Iterate over each line in the file
         for line in lines:
-            # Check if the line contains the string "Sequence Type: "
-            if "Sequence Type: " in line:
-                # If "unknown" is not in the line, extract the sequence type
-                if not "known" in line:
-                    lineage = "ST"+line.split(" ")[-1]
+            lineage = "ST"+line.split("\t")[2]
         # Return the determined lineage
         return (lineage)
     else:
